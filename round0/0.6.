@@ -1,0 +1,13 @@
+title 0.6. uusi muistiinpano
+
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over selain:
+selain ei lataudu uudelleen ja
+JS-koodi käsittelee uuden 
+muistiinpanon lisäämisen 
+tapahtumankäsittelijän avulla
+end note
+note over palvelin:
+uusi muistiinpano lähetetään
+palvelimelle JSON-merkkijonona
+end note

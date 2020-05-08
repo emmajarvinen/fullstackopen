@@ -1,0 +1,19 @@
+title 0.5. SPA
+
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+palvelin-->selain: HTML-koodi siirtyy
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+palvelin-->selain: tyylitiedosto siirtyy
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
+palvelin-->selain: JavaScript-koodi siirtyy
+note over selain:
+selain alkaa suorittaa js-koodia, 
+joka pyytää JSON-datan palvelimelta
+end note
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+palvelin-->selain: palvelin lähettää muistiinpanojen raakadatan selaimelle
+note over selain:
+selain suorittaa tapahtuman-
+käsittelijän, jonka avulla muistiinpanot
+renderöidään näytölle
+end note
