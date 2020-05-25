@@ -8,9 +8,7 @@ const App = ( {courses} ) => {
         {courses.map((course, i) =>
         <Course key={course.id} course={course} />
         )}
-        
       </div>
     )
   }
-  
-  export default App
+export default App

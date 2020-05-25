@@ -61,7 +61,7 @@ const courses = [
       },
       {
         name: 'Nyt osaat jo',
-        exercises: 13,
+        exercises: 11,
         id: 3
       }
     ]
