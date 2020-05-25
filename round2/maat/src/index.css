@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, table, button, li {
+  color: rgb(2, 2, 2);
+  font-size: 14px;
+}
+
+label {
+  color: rgb(20, 111, 231);
+  font-size: 20px;
+}
+
+h1 {
+  color: rgb(19, 76, 150);
+  font-size: 27px;
+}
+
+h2 {
+  color: rgb(19, 76, 150);
+  font-size: 24px;
+}
+
+h3 {
+  color: rgb(19, 76, 150);
+  font-size: 21px;
+}
+
+img {
+  height: 100px;
+  width: auto;
+}
